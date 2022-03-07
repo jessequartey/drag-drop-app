@@ -37,6 +37,7 @@ for (let a = 0; a < listItems.length; a++) {
       list.style.backgroundColor = " rgba(88, 65, 83, 0.5)";
     });
 
+    
     list.addEventListener("drop", function () {
       list.append(draggedItem);
       list.style.backgroundColor = " rgba(88, 65, 83, 0.5)";
